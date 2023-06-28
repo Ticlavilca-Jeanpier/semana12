@@ -1,0 +1,55 @@
+section.contenedor{
+    width: 800px;
+    height: 700px;
+    background-color:gainsboro ;
+    margin: 0 auto;
+}
+.caja_amarillo{
+    width: 200px;
+    height: 200px;
+    background-color:yellow ;
+    
+    
+}
+
+.caja_amarillo:hover{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(63, 10, 59) ;
+    transition-duration: 2500ms;
+    border-radius: 50%; 
+    opacity: 0.5;
+  
+    
+}
+.caja_rojo{
+    width: 200px;
+    height: 200px;
+    background-color:red ;
+    border-radius: 10px;
+    
+}
+.caja_rojo:hover{
+
+    background-color:rgb(30, 63, 105) ;
+    opacity: .2;
+    transform: scale(.8);
+
+}
+
+.caja_verde{
+    width: 200px;
+    height: 200px;
+    background-color:green ;
+    transition: all 2800ms;
+    
+}           
+.caja_verde:hover{
+    background-color:rgb(95, 250, 95) ;
+    
+}
+.caja_verde:hover{
+
+    transition: scale(.8) ;
+    
+}
